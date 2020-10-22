@@ -1,9 +1,9 @@
 package banca.ui;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-import banca.domain.Banca;
-import banca.domain.Cliente;
+//import banca.domain.Banca;
+//import banca.domain.Cliente;
 import banca.domain.exception.SaldoInsufficenteException;
 
 public class BankInterface {
@@ -13,11 +13,8 @@ public class BankInterface {
 		try {
 			menu.stampaMenu();
 		} catch (SaldoInsufficenteException e) {
-			// TODO Auto-generated catch block
 			e.getMessage();
 		}
-		
-		
 		
 	}
 	
